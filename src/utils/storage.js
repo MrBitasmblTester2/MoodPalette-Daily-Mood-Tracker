@@ -1,0 +1,1 @@
+// Local storage helpers\nconst KEY=\"mood-data\";\nexport function loadMoods(){try{return JSON.parse(localStorage.getItem(KEY))||{};}catch{return{};}}\nexport function saveMoods(data){localStorage.setItem(KEY,JSON.stringify(data));}
