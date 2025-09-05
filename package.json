@@ -1,0 +1,1 @@
+// Initialize package and dependencies\n{\n  \"name\": \"moodpalette\",\n  \"version\": \"1.0.0\",\n  \"dependencies\": { \"react\": \"^18.0.0\", \"react-dom\": \"^18.0.0\" }\n}
