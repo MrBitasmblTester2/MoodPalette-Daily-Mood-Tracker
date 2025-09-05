@@ -1,0 +1,1 @@
+// Main App component\nimport React from \"react\";\nimport MoodSelector from \"./components/MoodSelector\";\nimport CalendarHeatmap from \"./components/CalendarHeatmap\";\nimport { loadMoods, saveMoods } from \"./utils/storage\";\nfunction App(){ const moods = loadMoods(); return (<div className=\"app\">{/* TODO: render selector and heatmap */}</div>);}\nexport default App;
