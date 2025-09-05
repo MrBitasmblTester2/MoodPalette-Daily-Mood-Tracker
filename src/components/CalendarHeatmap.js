@@ -1,0 +1,1 @@
+// Calendar heatmap stub\nimport React from \"react\";\nexport default function CalendarHeatmap({data}){\n  // TODO: map dates to colors and render grid\n  return <div className=\"heatmap\">Heatmap Placeholder</div>;\n}
